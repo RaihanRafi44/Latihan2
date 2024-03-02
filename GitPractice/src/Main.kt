@@ -1,5 +1,10 @@
 import kotlin.math.PI
 
+class Time(){
+    fun currentTime(){
+        println("Current time is : ${System.currentTimeMillis()}")
+    }
+}
 class Circle(private val radius: Double) {
 
     fun getRadius(): Double {
@@ -65,6 +70,7 @@ fun main(args: Array<String>) {
     println("Panjang sisi persegi adalah ${square.getSide()}")
     println("Keliling persegi dengan panjang sisi yaitu $side adalah ${square.perimeterSquareCalculate()}")
     Square(5.0).wideSquare()
+    Time().currentTime()
 
 }
 
