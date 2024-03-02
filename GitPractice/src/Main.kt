@@ -1,5 +1,10 @@
 import kotlin.math.PI
 
+class Time(){
+    fun currentTime(){
+        println("Current time is : ${System.currentTimeMillis()}")
+    }
+}
 class Times(){
     fun calculate(a: Int, b: Int){
         println("result ${a * b}")
