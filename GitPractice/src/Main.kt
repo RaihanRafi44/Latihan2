@@ -1,5 +1,10 @@
 import kotlin.math.PI
 
+class Times(){
+    fun calculate(a: Int, b: Int){
+        println("result ${a * b}")
+    }
+}
 class Circle(private val radius: Double) {
 
     fun getRadius(): Double {
@@ -51,6 +56,7 @@ class Square(private val side: Double) {
 }
 
 fun main(args: Array<String>) {
+    Times().calculate(5, 3)
     val radius = 42.0
     val circle = Circle(radius)
     val side = 20.0
