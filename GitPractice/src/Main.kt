@@ -1,5 +1,10 @@
 import kotlin.math.PI
 
+class Times(){
+    fun calculate(a: Int, b: Int){
+        println("result ${a * b}")
+    }
+}
 class Time(){
     fun currentTime(){
         println("Current time is : ${System.currentTimeMillis()}")
@@ -70,7 +75,6 @@ fun main(args: Array<String>) {
     println("Panjang sisi persegi adalah ${square.getSide()}")
     println("Keliling persegi dengan panjang sisi yaitu $side adalah ${square.perimeterSquareCalculate()}")
     Square(5.0).wideSquare()
-    Time().currentTime()
 
 }
 
