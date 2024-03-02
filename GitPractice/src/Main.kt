@@ -19,6 +19,11 @@ class Circle(private val radius: Double) {
         println("-------------------------------------")
     }
 }
+class Square(private val side: Double){
+    fun wideSquare(){
+        println("Wide is : ${side * side}")
+    }
+}
 
 fun main(args: Array<String>) {
     val radius = 42.0
@@ -38,4 +43,5 @@ class Triangle(){
 fun main() {
     Triangle().circumferenceTriangle(3.0, 4.0, 5.0)
     Triangle().wideTriangle(4.0, 3.0)
+    Square(5.0).wideSquare()
 }
