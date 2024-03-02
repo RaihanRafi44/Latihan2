@@ -10,6 +10,7 @@ class Times(){
         println("result ${a * b}")
     }
 }
+
 class Circle(private val radius: Double) {
 
     fun getRadius(): Double {
